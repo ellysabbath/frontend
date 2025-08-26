@@ -1,0 +1,6 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/profile/[...path]/route": "app/api/profile/[...path]/route.js",
+  "/(protected)/dashboard/profile/page": "app/(protected)/dashboard/profile/page.js",
+  "/(protected)/dashboard/page": "app/(protected)/dashboard/page.js"
+}
