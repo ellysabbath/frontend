@@ -1,4 +1,4 @@
-// File: C:\Users\elly\Desktop\sadaka\frontend\app\(protected)\dashboard\profile\page.tsx
+// File: /mnt/c/users/elly/desktop/sadaka/frontend/app/(protected)/dashboard/profile/page.tsx
 import * as entry from '../../../../../../app/(protected)/dashboard/profile/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

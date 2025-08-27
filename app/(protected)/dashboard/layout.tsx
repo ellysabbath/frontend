@@ -61,6 +61,8 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     { name: 'DepartmentsUser', href: '/dashboard/departments-user', icon: '📈' },
     { name: 'AnnouncementsUser', href: '/dashboard/announcements-user', icon: '📣' },
     { name: 'TimetableUser & Calendar', href: '/dashboard/timetable-user', icon: '📅' },
+    { name: 'Profile', href: '/dashboard/profile', icon: '👤' },
+    { name: 'About us', href: '/dashboard/about-us', icon: 'ℹ️' },
     
   ];
 

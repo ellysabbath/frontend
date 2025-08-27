@@ -1,4 +1,4 @@
-// File: C:\Users\elly\Desktop\sadaka\frontend\app\api\profile\[...path]\route.ts
+// File: /mnt/c/users/elly/desktop/sadaka/frontend/app/api/profile/[...path]/route.ts
 import * as entry from '../../../../../../app/api/profile/[...path]/route.js'
 import type { NextRequest } from 'next/server.js'
 

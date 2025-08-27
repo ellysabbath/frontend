@@ -1,0 +1,213 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/api/profile/[...path]",
+      "regex": "^/api/profile/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPpath": "nxtPpath"
+      },
+      "namedRegex": "^/api/profile/(?<nxtPpath>.+?)(?:/)?$"
+    },
+    {
+      "page": "/password-reset-confirm/[uid]/[token]",
+      "regex": "^/password\\-reset\\-confirm/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPuid": "nxtPuid",
+        "nxtPtoken": "nxtPtoken"
+      },
+      "namedRegex": "^/password\\-reset\\-confirm/(?<nxtPuid>[^/]+?)/(?<nxtPtoken>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/verify-email/[key]",
+      "regex": "^/verify\\-email/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPkey": "nxtPkey"
+      },
+      "namedRegex": "^/verify\\-email/(?<nxtPkey>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/about-us",
+      "regex": "^/dashboard/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin",
+      "regex": "^/dashboard/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin(?:/)?$"
+    },
+    {
+      "page": "/dashboard/analytics",
+      "regex": "^/dashboard/analytics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/analytics(?:/)?$"
+    },
+    {
+      "page": "/dashboard/announcements",
+      "regex": "^/dashboard/announcements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/announcements(?:/)?$"
+    },
+    {
+      "page": "/dashboard/announcements-user",
+      "regex": "^/dashboard/announcements\\-user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/announcements\\-user(?:/)?$"
+    },
+    {
+      "page": "/dashboard/announcements-user/timetable-user",
+      "regex": "^/dashboard/announcements\\-user/timetable\\-user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/announcements\\-user/timetable\\-user(?:/)?$"
+    },
+    {
+      "page": "/dashboard/departments",
+      "regex": "^/dashboard/departments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/departments(?:/)?$"
+    },
+    {
+      "page": "/dashboard/departments-user",
+      "regex": "^/dashboard/departments\\-user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/departments\\-user(?:/)?$"
+    },
+    {
+      "page": "/dashboard/galary",
+      "regex": "^/dashboard/galary(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/galary(?:/)?$"
+    },
+    {
+      "page": "/dashboard/golive",
+      "regex": "^/dashboard/golive(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/golive(?:/)?$"
+    },
+    {
+      "page": "/dashboard/messages",
+      "regex": "^/dashboard/messages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/messages(?:/)?$"
+    },
+    {
+      "page": "/dashboard/profile",
+      "regex": "^/dashboard/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/profile(?:/)?$"
+    },
+    {
+      "page": "/dashboard/settings",
+      "regex": "^/dashboard/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/settings(?:/)?$"
+    },
+    {
+      "page": "/dashboard/timetable",
+      "regex": "^/dashboard/timetable(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/timetable(?:/)?$"
+    },
+    {
+      "page": "/dashboard/timetable-user",
+      "regex": "^/dashboard/timetable\\-user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/timetable\\-user(?:/)?$"
+    },
+    {
+      "page": "/dashboard/users",
+      "regex": "^/dashboard/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/users(?:/)?$"
+    },
+    {
+      "page": "/dashboard/writings",
+      "regex": "^/dashboard/writings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/writings(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/password-reset",
+      "regex": "^/password\\-reset(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/password\\-reset(?:/)?$"
+    },
+    {
+      "page": "/register",
+      "regex": "^/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
